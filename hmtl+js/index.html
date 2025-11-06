@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi dia perfecto</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mi dia perfecto</h1>
+      <button id="temabtn">Cambiar tema</button>
+    </header>
+    <div class="container">
+      <section class="box">
+        <h2>¿Como te llamas?</h2>
+        <input type="text" id="nombrein" placeholder="Escriba su nombre" />
+        <button id="saludarbtn">Saludar</button>
+        <p id="msg"></p>
+      </section>
+      <section class="box">
+        <h2>Imagen del dia</h2>
+        <button id="mostrar">Mostrar</button>
+        <img
+          id="foto"
+          width="300"
+          style="display: none"
+          src="https://r-charts.com/es/miscelanea/procesamiento-imagenes-magick_files/figure-html/importar-imagen-r.png"
+          alt="..."
+        />
+      </section>
+      <section class="box likes">
+        <h2>¿Te gusto la pagina?</h2>
+        <button id="likebtn">Like</button>
+        <p id="contador">Likes: 0</p>
+      </section>
+
+      <footer>
+        <p>Diseñado por mi &copy; Derechos reservados pa mi</p>
+      </footer>
+
+      <script src="aja.js"></script>
+    </div>
+  </body>
+</html>
